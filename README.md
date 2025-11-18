@@ -1,9 +1,13 @@
+
+<img width="1897" height="862" alt="image" src="https://github.com/user-attachments/assets/2fa0d230-e7e2-415c-8bec-8d118ce29a29" />
+
+
+
 # AeroTrack – Real-Time Telemetry Dashboard
 
 AeroTrack is a full-stack web application designed to monitor real-time aircraft telemetry. It features a live-updating dashboard with a map display, built with a modern tech stack including Node.js, MongoDB, React, and TypeScript.
 
-[](https://aerotrack-dashboard.netlify.app/)
-_Live Demo: [https://aerotrack-dashboard.netlify.app/](https://aerotrack-dashboard.netlify.app/)_
+[[](https://aerotrack-dashboard.netlify.app/)](https://aero-track.vercel.app/)
 _(Note: The free-tier backend may take 30-60 seconds to "wake up" on the first visit.)_
 
 ## Features
