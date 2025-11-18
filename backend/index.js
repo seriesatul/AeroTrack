@@ -78,6 +78,11 @@ app.get('/api/telemetry/:aircraftId', async (req, res) => {
     }
 });
 
+app.get('/healthz', (req, res) => {
+    res.status(200).send('OK');
+});
+
+
 
 // --- Start the Server ---
 // NEW: We start the http server, not the Express app directly
