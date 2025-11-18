@@ -12,7 +12,7 @@ connectDB();
 
 // --- Basic Server Setup ---
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 // NEW: Create an HTTP server from our Express app
 const server = http.createServer(app); 
