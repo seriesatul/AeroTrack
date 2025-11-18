@@ -86,7 +86,9 @@ app.get('/healthz', (req, res) => {
 
 // --- Start the Server ---
 // NEW: We start the http server, not the Express app directly
-server.listen(PORT, () => {
-    console.log(`AeroTrack backend server is running on http://localhost:${PORT}`);
-    console.log(`WebSocket server is also running on ws://localhost:${PORT}`);
+// OLD CODE
+// NEW, CORRECTED CODE
+server.listen(PORT, '0.0.0.0', () => {
+    console.log(`AeroTrack backend server is running on host 0.0.0.0, port ${PORT}`);
+    console.log(`WebSocket server is also running.`);
 });
