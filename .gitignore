@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Build folder from React
+frontend/build/
+
+# Environment variables files (IMPORTANT FOR SECURITY)
+.env
+backend/.env
+frontend/.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
