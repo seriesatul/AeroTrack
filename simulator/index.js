@@ -4,7 +4,7 @@ const axios = require('axios');
 
 // The URL where our backend server will be listening for telemetry data.
 // We haven't built this yet, but we'll point our simulator to it.
-const BACKEND_URL = 'http://localhost:3001/api/telemetry';
+const BACKEND_URL = 'https://aerotrack-backend.onrender.com/api/telemetry';
 
 // --- Initial Aircraft State ---
 // Let's simulate a single aircraft for now.
