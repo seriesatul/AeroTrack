@@ -9,7 +9,7 @@ const Dashboard: React.FC = () => {
     const [telemetryData, setTelemetryData] = useState<TelemetryData | null>(null);
 
     useEffect(() => {
-        const ws = new WebSocket('ws://localhost:3001');
+        const ws = new WebSocket(process.env.REACT_APP_WEBSOCKET_URL || 'ws://localhost:3001');
 
         ws.onopen = () => console.log('WebSocket connection established');
         ws.onclose = () => console.log('WebSocket connection closed');
